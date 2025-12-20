@@ -1,0 +1,75 @@
+.login-box {
+    width: 300px;
+    margin: 120px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+}
+.login-box input {
+    width: 90;
+    padding: 8px;
+    margin: 10px 0;
+}
+.section-img {
+    width: 100;
+    max-width: 400px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.log-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+header {
+    background-color: #d88080;
+    color: gray;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+nav{
+    margin-top: 15px;
+}
+.home-bg {
+    background-color: grey;
+
+}
+
+.about-bg {
+   background-color: rgb(201, 35, 35); 
+}
+.services-bg {
+     background-color: rgb(223, 120, 120);
+}
+.content-bg {
+     background-color: rgb(126, 9, 9);
+}
+body {
+    transition: background-color 0.4s ease;
+}
